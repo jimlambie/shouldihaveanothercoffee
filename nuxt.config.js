@@ -1,3 +1,5 @@
 export default {
-  modules: ['@nuxt/http']
+  modules: ['@nuxt/http'],
+  target: 'static',
+  ssr: false
 }
