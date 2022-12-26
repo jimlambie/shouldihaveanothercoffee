@@ -6,7 +6,7 @@
     <div class="text-[100px] transform rotate-3 scale-125 leading-none w-full overflow-hidden font-extrabold text-white">
       <div v-for="index in 20" :key="index">
         <marquee-text :repeat="10" :duration="1" :reverse="index % 2==0">
-          <span class="px-3">YES</span>
+          <span class="px-3 text-transparent text-stroke text-stroke-2 text-stroke-white blur-sm">YES</span>
         </marquee-text>
       </div>
     </div>

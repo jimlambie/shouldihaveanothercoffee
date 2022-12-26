@@ -20,6 +20,6 @@
     "vue-marquee-text-component": "^1.2.0"
   },
   "devDependencies": {
-    "tailwindcss-text-fill-stroke": "^1.1.2"
+    "tailwindcss-text-fill-stroke": "^2.0.0-beta.1"
   }
 }

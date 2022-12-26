@@ -21,6 +21,16 @@ module.exports = {
           '100%': { transform: 'translateX(0)' }
         }
       }
+    },
+    textFillColor: theme => theme('borderColor'),
+    textStrokeColor: theme => theme('borderColor'),
+    textStrokeWidth: theme => theme('borderWidth'),
+    paintOrder: {
+      fms: { paintOrder: 'fill markers stroke' },
+      sfm: { paintOrder: 'stroke fill markers' },
+      smf: { paintOrder: 'stroke markers fill' },
+      mfs: { paintOrder: 'markers fill stroke' },
+      msf: { paintOrder: 'markers stroke fill' }
     }
   },
   plugins: [
