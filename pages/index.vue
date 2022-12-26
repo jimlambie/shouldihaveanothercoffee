@@ -7,7 +7,7 @@
     <LazyTemplate05 v-if="randomTemplate === 'template05'" />
     <LazyTemplate06 v-if="randomTemplate === 'template06'" />
     <LazyTemplate07 v-if="randomTemplate === 'template07'" />
-    <div :v-show="data.recipe" class="fixed bottom-0 z-20 flex items-center justify-center w-full py-4 text-white bg-black bg-opacity-90 backdrop-blur-md">
+    <div :v-show="data.recipe" class="fixed bottom-0 z-20 flex items-center justify-center w-full py-4 text-sm text-center text-white bg-black md:text-base bg-opacity-90 backdrop-blur-md">
       <p>Try <a class="underline" :href="data.recipe.link" rel="noreferer">{{ data.recipe.recipeTitle }}</a> by {{ data.recipe.RecipeCreator }} on <a href="https://aeroprecipe.com">AeroPrecipe.com</a></p>
     </div>
 </div>
