@@ -20,6 +20,11 @@ export default {
     '@/assets/css/main.css'
   ],
   head: {
+    title: 'Should I Have Another Coffee?',
+    meta: [
+      { charset: 'utf-8' },
+      { name: 'viewport', content: 'width=device-width, initial-scale=1' }
+    ],
     link: [
       {
         rel: 'stylesheet',
