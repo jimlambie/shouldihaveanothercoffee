@@ -1,18 +1,31 @@
 <template>
-  <div>
-    <h1>{{ data.recipe.recipeTitle }}</h1>
-    <p>{{ data.recipe.RecipeCreator }}</p>
-    <a :href="data.recipe.link" rel="noreferer">{{ data.recipe.recipeTitle }}</a>
-  </div>
+  <div class="w-full h-full bg-black">
+    <LazyTemplate01 v-if="randomTemplate === 'template01'" />
+    <LazyTemplate02 v-if="randomTemplate === 'template02'" />
+    <LazyTemplate03 v-if="randomTemplate === 'template03'" />
+    <LazyTemplate04 v-if="randomTemplate === 'template04'" />
+    <div :v-show="data.recipe" class="fixed bottom-0 z-20 flex items-center justify-center w-full py-4 text-white bg-black bg-opacity-90 backdrop-blur-md">
+      <p>Try <a class="underline" :href="data.recipe.link" rel="noreferer">{{ data.recipe.recipeTitle }}</a> by {{ data.recipe.RecipeCreator }} on <a href="https://aeroprecipe.com">AeroPrecipe.com</a></p>
+    </div>
+</div>
 </template>
 
 <script>
   export default {
-    data: () => ({
-      data: {
-        recipe: {}
+    data() {
+      const templates = [
+        'template01',
+        'template02',
+        'template03',
+        'template04'
+      ]
+      return {
+        data: {
+          recipe: {}
+        },
+        randomTemplate: templates[Math.floor(Math.random() * templates.length)]
       }
-    }),
+    },
     async fetch() {
       this.data = await this.$http.$get('https://api.aeroprecipe.com/recipes/random')
     }

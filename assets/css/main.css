@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+
+body, html, #__nuxt, #__layout {
+  @apply h-full bg-black;
+}
+
+@tailwind utilities;
