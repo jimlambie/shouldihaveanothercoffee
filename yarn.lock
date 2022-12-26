@@ -8603,6 +8603,11 @@ vue-template-es2015-compiler@^1.9.0:
   resolved "https://registry.yarnpkg.com/vue-template-es2015-compiler/-/vue-template-es2015-compiler-1.9.1.tgz#1ee3bc9a16ecbf5118be334bb15f9c46f82f5825"
   integrity sha512-4gDntzrifFnCEvyoO8PqyJDmguXgVPxKiIxrBKjIowvL9l+N66196+72XVYR8BBf1Uv1Fgt3bGevJ+sEmxfZzw==
 
+vue-video@^0.1.7:
+  version "0.1.7"
+  resolved "https://registry.yarnpkg.com/vue-video/-/vue-video-0.1.7.tgz#ec69534da695225de6c02bda6c7d49b6d46bea66"
+  integrity sha512-05jp5rSXPONaXT0Kp0OGGKXaMVmbGadjwI+WoHBRI8pXQd8YuATAySsDqkQTftCLv6sUGYehMpUeIXyqtaV5kg==
+
 vue@^2.5.17, vue@^2.6.12:
   version "2.7.14"
   resolved "https://registry.yarnpkg.com/vue/-/vue-2.7.14.tgz#3743dcd248fd3a34d421ae456b864a0246bafb17"
