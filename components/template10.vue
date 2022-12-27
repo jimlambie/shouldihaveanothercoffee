@@ -2,6 +2,7 @@
   <div
     class="flex flex-col cursor-pointer items-center justify-center w-full h-full overflow-hidden bg-[#FF10F0]"
     v-on:mousedown="interact"
+    @touchstart="interact"
   >
     <div
       v-show="!interacted"
