@@ -8568,6 +8568,15 @@ vue-router@^3.5.1:
   resolved "https://registry.yarnpkg.com/vue-router/-/vue-router-3.6.5.tgz#95847d52b9a7e3f1361cb605c8e6441f202afad8"
   integrity sha512-VYXZQLtjuvKxxcshuRAwjHnciqZVoXAjTjcqBTz4rKc8qih9g9pI3hbDjmqXaHdgL3v8pV6P8Z335XvHzESxLQ==
 
+vue-scratchable@^0.3.3:
+  version "0.3.3"
+  resolved "https://registry.yarnpkg.com/vue-scratchable/-/vue-scratchable-0.3.3.tgz#8ce9f6d42b957f67b6b3d14c49b86daea061f9a1"
+  integrity sha512-HBJCOCe9Xlkinz5gfVmRGkuadqV+0g4nXephqCQJt+6MN5IAjt1zmtW/jSEQwXtFswRwj56RBNpZiKUNG0yUPw==
+  dependencies:
+    core-js "^3.6.5"
+    lodash "^4.17.20"
+    vue "^2.6.12"
+
 vue-server-renderer@^2.6.12:
   version "2.7.14"
   resolved "https://registry.yarnpkg.com/vue-server-renderer/-/vue-server-renderer-2.7.14.tgz#986f3fdca63fbb38bb6834698f11e0d6a81f182f"
@@ -8602,11 +8611,6 @@ vue-template-es2015-compiler@^1.9.0:
   version "1.9.1"
   resolved "https://registry.yarnpkg.com/vue-template-es2015-compiler/-/vue-template-es2015-compiler-1.9.1.tgz#1ee3bc9a16ecbf5118be334bb15f9c46f82f5825"
   integrity sha512-4gDntzrifFnCEvyoO8PqyJDmguXgVPxKiIxrBKjIowvL9l+N66196+72XVYR8BBf1Uv1Fgt3bGevJ+sEmxfZzw==
-
-vue-video@^0.1.7:
-  version "0.1.7"
-  resolved "https://registry.yarnpkg.com/vue-video/-/vue-video-0.1.7.tgz#ec69534da695225de6c02bda6c7d49b6d46bea66"
-  integrity sha512-05jp5rSXPONaXT0Kp0OGGKXaMVmbGadjwI+WoHBRI8pXQd8YuATAySsDqkQTftCLv6sUGYehMpUeIXyqtaV5kg==
 
 vue@^2.5.17, vue@^2.6.12:
   version "2.7.14"

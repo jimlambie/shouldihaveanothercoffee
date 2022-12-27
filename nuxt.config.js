@@ -37,6 +37,10 @@ export default {
       {
         rel: 'stylesheet',
         href: 'https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,900;1,900&display=swap'
+      },
+      {
+        rel: 'stylesheet',
+        href: 'https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap'
       }
     ],
     script: [
